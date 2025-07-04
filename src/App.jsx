@@ -36,6 +36,7 @@ const App = () => {
             <Route path="/detalle/:id/:nombre" element={<Detalle />} />
             <Route path="/categorias/:id" element={<Categorias />} />
             <Route path="/busquedas" element={<Busquedas />} />
+             <Route path="*" element={<Movil />} />
           </Routes>
           <Footer />
           <PostFooter />
